@@ -15,4 +15,4 @@ Each extracted skill from CV is compared with each extracted requirement from th
 
 Command line use:
 
-```python scrape.py -u <glassdoor url> -c <path_to_cv_folder>```
+```python main.py -u <glassdoor url> -c <path_to_cv_folder>```
