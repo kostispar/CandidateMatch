@@ -11,3 +11,8 @@ Sequence based --> longest common substring similarity, Ratcliff-Obershelp simil
 
 
 Each extracted skill from CV is compared with each extracted requirement from the ad. All of the 6 above metrics are extracted for each such combination (skill - requirement). A final match per skill/requirement is computed by taking the mean (Sum(metrics)/6). Finally, all calculated scores are averaged with respect to the total skills and requirements.
+
+
+Command line use:
+
+```python scrape.py -u <glassdoor url> -c <path_to_cv_folder>```
