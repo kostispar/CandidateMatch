@@ -15,7 +15,9 @@ import os
 import string
 import nltk
 from nltk.stem.wordnet import WordNetLemmatizer
-sys.setrecursionlimit(10**6)
+#sys.setrecursionlimit(10**6)
+
+
 
 def similarity(cleaned_lines_ad, cleaned_lines_cv):
     total_score = 0
