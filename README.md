@@ -1,6 +1,6 @@
 # CandidateMatch
 
-A standalone script for scraping a job ad from `glassdoor.com`, extracting key requirements and then analyzing a list of given CVs (pdf) and finding each candidate score (%) in terms of string similarity.
+A standalone script for scraping (with selenium) a job ad from `glassdoor.com`, extracting key requirements and then analyzing a list of given CVs (pdf) and finding each candidate score (%) in terms of string similarity.
 
 Metrics used: 
 Edit based --> Jaro Winkler, Levenshtein
